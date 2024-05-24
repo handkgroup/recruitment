@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1440px;
     padding: 100px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .blogtop .top_buttons{
     display: flex;
@@ -28,4 +28,152 @@ letter-spacing: 1px;
 .blogtop .top_buttons div:hover{
     background-color: #fff;
     border-top: 3px solid #E84949;
+}
+.blogtop form{
+    display: flex;
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #F9F9F9;
+}
+.blogtop form p{
+    margin-right: 20px;
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+.blogtop form label{
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+margin-right: 40px;
+}
+.blogtop form label .regular_checkbox{
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    width: 16px;
+    height: 16px;
+    padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+.blogtop form label .regular_checkbox:active, .regular_checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.blogtop form label .regular_checkbox:checked {
+	background-color: #CF0505;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: white;
+}
+.regular_checkbox:checked:after {
+	content: '\2713';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+}
+.blogtop_box{
+    width: 100%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 0;
+}
+.blogtop_box .blogtop_card{
+    width: 100%;
+}
+.blogtop_box .blogtop_card img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.blogtop_box .blogtop_card h3{
+    color: var(--red, #E84949);
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+margin-bottom: 8px;
+}
+.blogtop_box .blogtop_card p{
+    color: var(--black_accent, #191615);
+font-family: "Noto Sans JP";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-bottom: 8px;
+}
+.blogtop_box .blogtop_card h4{
+    color: var(--black_accent, #191615);
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+margin-bottom: 8px;
+}
+
+.blogtop .blogtop_slider{
+    width: 70%;
+    margin-top: 60px;
+    margin-right:  auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.blogtop .blogtop_slider .numbers{
+    display: flex;
+width: 35px;
+height: 35px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+}
+.blogtop .blogtop_slider .numbers p{
+    color: var(--text_sub, #757575);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.blogtop .blogtop_slider .numbers:hover{
+border-radius: 4px;
+border: 1px solid var(--gray_3, #ADADAD);
+background: var(--red, #CF0505);
+}
+.blogtop .blogtop_slider .numbers:hover p{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
 }
