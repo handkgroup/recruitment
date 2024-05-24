@@ -1,0 +1,31 @@
+.blogtop{
+    width: 100%;
+    max-width: 1440px;
+    padding: 100px;
+    margin: 0 auto;
+}
+.blogtop .top_buttons{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.blogtop .top_buttons div{
+    width: 50%;
+    background-color: #F8F8F8;
+    padding: 14px;
+    border-top: 3px solid #D9D9D9;
+}
+.blogtop .top_buttons p{
+    color: var(--black, #09122B);
+text-align: center;
+font-family: "Noto Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+}
+.blogtop .top_buttons div:hover{
+    background-color: #fff;
+    border-top: 3px solid #E84949;
+}

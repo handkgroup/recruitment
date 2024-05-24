@@ -1,0 +1,25 @@
+.red_button{
+    background: var(--red, #CF0505);
+box-shadow: 4px 6px 0px 0px #000;
+display: flex;
+gap: 30px;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+color: #FFF;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2px;
+border: none;
+}
+
+/* ! Delete this part before use and your own styles. This part is only for view ! */
+.red_button {
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }

@@ -1,0 +1,34 @@
+.top_cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: silver;
+    padding: 20px 0;
+}
+.top_cta .white_button {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 16px;
+    padding: 24px 10px 24px 40px;
+  }
+  .top_cta h2{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 5.2px;
+  }
+
+  .top_cta p{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2px;
+  }

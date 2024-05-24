@@ -1,0 +1,60 @@
+.top_introduction{
+    max-width: 1440px;
+    padding: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bottom_bg{
+    width: 1004px;
+height: 500px;
+background: #F7F1F1;
+position: absolute;
+left: -20px;
+bottom: 20px;
+z-index: 1;
+}
+.int_content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 100px;
+}
+.int_content .img_intro{
+    width: 701px;
+    height: 472px;;
+    background: url("../images/introduction_img.jpeg") lightgray -1.381px 0px / 119.781% 100% no-repeat;
+    background-position: center;
+}
+.int_content .int_text{
+    width: 40%;
+}
+.int_content .int_text h2{
+    color: #000;
+font-family: "Noto Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+}
+.int_content .int_text h2 span{
+    color: var(--red, #CF0505);
+font-family: "Noto Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+}
+
+.int_content .int_text p{
+    color: #000;
+font-family: "Noto Sans JP";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+margin-top: 57px;
+}

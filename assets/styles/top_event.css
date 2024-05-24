@@ -1,0 +1,58 @@
+.top_event{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.top_event .event_card img{
+    width: 100%;
+}
+
+.event_card_text{
+    padding: 16px;
+}
+
+.event_card_text h2{
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.8px;
+margin-bottom: 13px;
+}
+.event_card_text h2 + p{
+    color: var(--black, #000);
+font-family: "Noto Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 13px;
+}
+
+.event_card_text h4{
+    color: var(--gray_3, #ADADAD);
+font-family: "Noto Sans JP";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 13px;
+}
+
+.event_card_text h4 + p{
+    color: var(--black, #09122B);
+text-align: right;
+font-family: "Barlow";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+letter-spacing: 0.7px;
+}

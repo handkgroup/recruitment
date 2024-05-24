@@ -1,0 +1,121 @@
+footer{
+   background-color: black; 
+}
+.footer_container{
+    width: 100%;
+    max-width: 1440px;
+    padding: 50px 100px;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+}
+.left_footer{
+    width: 30%;
+}
+.left_footer .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left_footer .logo p{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.left_footer .logo img{
+    width: 159px;
+    height: 159px;
+}
+.left_footer .social .img_container{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.left_footer .social .img_container img{
+    width: 24px;
+    height: 24px;
+}
+.left_footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.right_footer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 130px;
+}
+.footer_links{
+    display: flex;
+    gap: 30px;
+}
+.footer_links span{
+    color: #FFF;
+}
+
+.footer_links span p{
+    color: #FFF;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 5px;
+padding: 5px;
+border-bottom: 1px solid transparent;
+}
+.footer_links span ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    visibility: hidden;
+}
+
+.footer_links span li{
+    list-style: none;
+}
+.footer_links span li a{
+    text-decoration: none;
+    color: var(--gray_3, #ADADAD);
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer_links span:hover ul{
+    visibility: visible;
+}
+.footer_links span:hover p{
+    border-bottom: 1px solid #C1C1C1;
+}
+.footer_links + p{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer_links + p span{
+    color: #ADADAD;
+text-align: center;
+font-family: "Noto Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+margin-right: 32px;
+}

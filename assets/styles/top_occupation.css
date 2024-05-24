@@ -1,0 +1,141 @@
+.top_occupation{
+    max-width: 1440px;
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.occupation_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 4px;
+}
+.occupation_box .occupation_card{
+    height: 200px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.occupation_box .occupation_card:nth-child(1){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.occupation_box .occupation_card:nth-child(2){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.occupation_box .occupation_card:nth-child(3){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.occupation_box .occupation_card:nth-child(4){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.occupation_box .occupation_card:nth-child(5){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+.occupation_box .occupation_card:nth-child(6){
+    background: linear-gradient( rgba(0, 0, 0, .40), rgba(0, 0, 0, .40) ), url("../images/occup_6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+.occupation_box .occupation_card h4{
+    color: #FFF;
+font-family: "Noto Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+.occupation_box .occupation_card p{
+    color: #FFF;
+font-family: "Noto Sans JP";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+visibility: hidden;
+}
+
+.occupation_box .occupation_card:nth-child(1):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:nth-child(2):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:nth-child(3):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:nth-child(4):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:nth-child(5):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:nth-child(6):hover{
+    background: linear-gradient( rgba(109, 0, 0, 0.70), rgba(109, 0, 0, 0.70)), url("../images/occup_6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.occupation_box .occupation_card:hover p{
+    visibility: visible;
+}

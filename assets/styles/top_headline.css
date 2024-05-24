@@ -1,0 +1,59 @@
+.top_headline{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.top_headline h2{
+    color: var(--red, #CF0505);
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 12.8px;
+}
+.top_headline .headline_left{
+    width: 20%;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+.top_headline .headline_left p{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 10px;
+    color: var(--red, #CF0505);
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+.top_headline .headline_left h3{
+    color: #000;
+font-family: "Noto Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.2px;
+align-self: flex-end;
+}
+.top_headline .headline_left h3 span{
+    color: var(--red, #CF0505);
+font-family: "Noto Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.2px;
+}

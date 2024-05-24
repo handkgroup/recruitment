@@ -1,0 +1,84 @@
+.career_office{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 48px;
+}
+.career_card{
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--red, #CF0505);
+    background: var(--white, #FFF);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.career_card .top_headline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.career_card .top_headline .headline_left{
+    width: 50%;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.career_card .top_headline .headline_left p{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 10px;
+    color: var(--red, #CF0505);
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+.career_card .top_headline .headline_left h3{
+    color: var(--black, #09122B);
+font-family: "Noto Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.career_card .top_headline + img{
+    margin: 10px;
+    width: 213.75px;
+height: 185.25px;
+}
+.career_office .career_card .career_text{
+    color: var(--black, #09122B);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin: 50px 0;
+}
+.career_card .white_button {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    padding: 24px 10px 24px 40px;
+    align-items: flex-start;
+    gap: 30px;
+}
