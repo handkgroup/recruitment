@@ -1,6 +1,8 @@
 .white_button {
+  text-decoration: none;
   text-align: center;
   padding: 15px 20px;
+  width: fit-content;
   border: 1px solid var(--red, #cf0505);
   background: #fff;
   box-shadow: 4px 4px 0px 0px #000;
