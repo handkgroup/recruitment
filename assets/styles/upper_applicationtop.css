@@ -1,0 +1,180 @@
+.upper_application{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 20px auto;
+}
+
+.check_radio{
+    background-color: #F9F9F9;
+    padding: 30px 40px;
+}
+.check_radio h2{
+    color: var(--black, #000);
+    font-family: "Noto Sans JP";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.upper_application .application_checkbox{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.upper_application .application_checkbox p{
+    margin-right: 20px;
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+.upper_application .application_checkbox label{
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+margin-right: 40px;
+}
+.upper_application .application_checkbox label .regular_checkbox{
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    width: 16px;
+    height: 16px;
+    padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+.upper_application .application_checkbox label .regular_checkbox:active, .regular_checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.upper_application .application_checkbox label .regular_checkbox:checked {
+	background-color: #CF0505;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: white;
+}
+.regular_checkbox:checked:after {
+	content: '\2713';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+}
+
+.regular_radio {
+	appearance: none;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular_radio:checked:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #CF0505;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular_radio:checked {
+	background-color: #CF0505;
+	color: #CF0505;
+	border: 2px solid #CF0505;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular_radio:active, .regular_radio:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.new_graduate .graduate_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.new_graduate .graduate_header h2{
+    color: var(--black, #000);
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+}
+.new_graduate .graduate_header .dash{
+    width: 51px;
+height: 1px;
+background-color: #CF0505;
+}
+.graduate_cards{
+    display: flex;
+padding: 30px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+border: 1px solid var(--gray_2, #D9D9D9);
+margin-top: 20px;
+}
+.graduate_cards h2{
+    color: var(--red, #CF0505);
+font-family: "Noto Sans JP";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
+.graduate_cards p{
+    color: var(--black, #000);
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+}
+.underline{
+  width: 100%;
+height: 1px;
+background: #D9D9D9;
+}
+.card_buttons button{
+padding: 4px 8px;
+color: var(--black_accent, #191615);
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+border: 1px solid var(--gray_3, #ADADAD);
+background: #FFF;
+}

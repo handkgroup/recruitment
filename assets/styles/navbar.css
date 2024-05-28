@@ -1,29 +1,32 @@
+
+
 nav{
-    max-width: 1440px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    background: #FFF;
+max-width: 1440px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+background: #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 padding: 0 40px;
 }
 nav img{
-    width: 92px;
-    height: 92px;
+width: 92px;
+height: 92px;
 }
 nav .links{
-    display: flex;
-    align-items: center;
-    gap: 24px;
+display: flex;
+align-items: center;
+gap: 24px;
 }
 nav .links ul{
-    display: flex;
-    gap: 24px;
+display: flex;
+gap: 24px;
+list-style: none;
 }
 nav .links ul li a{
-    color: #000;
+color: #000;
 font-family: "Noto Sans";
 font-size: 15px;
 font-style: normal;
@@ -31,13 +34,13 @@ font-weight: 700;
 line-height: normal;
 height: 100%;
 padding: 10px 0;
-    border: 0.8px solid #FFF;
+border: 0.8px solid #FFF;
 }
 nav .links ul li:hover a{
-    border-bottom: 0.8px solid #000;
+border-bottom: 0.8px solid #000;
 }
 nav .links button{
-    width: 169px;
+width: 169px;
 height: 45px;
 display: flex;
 justify-content: space-between;
@@ -55,9 +58,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 border: none;
 }
 nav .links button:hover{
-    cursor: pointer ;
+cursor: pointer ;
 }
 nav .links button img{
-    width: 6.5px;
-    height: 11.5px;
+width: 6.5px;
+height: 11.5px;
 }
