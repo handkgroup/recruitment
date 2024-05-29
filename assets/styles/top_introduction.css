@@ -21,10 +21,13 @@ z-index: 1;
     gap: 100px;
 }
 .int_content .img_intro{
-    width: 701px;
-    height: 472px;;
-    background: url("../images/introduction_img.jpeg") lightgray -1.381px 0px / 119.781% 100% no-repeat;
-    background-position: center;
+    width: 60%;
+    height: 472px;
+}
+.int_content .img_intro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .int_content .int_text{
     width: 40%;

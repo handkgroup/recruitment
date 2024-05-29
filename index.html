@@ -28,6 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/navbar.css" />
     <link rel="stylesheet" href="./assets/styles/fv.css" />
@@ -99,7 +100,9 @@
     <div class="top_introduction">
       <div class="bottom_bg"></div>
       <div class="int_content">
-        <div class="img_intro"></div>
+        <div class="img_intro">
+          <img src="./assets/images/introduction_img.jpeg" alt="">
+        </div>
         <div class="int_text">
           <h2>
             思う<span>気持ち</span>が強ければ、<br />
@@ -224,83 +227,39 @@
     <!-- Top numbers starts here -->
     <div class="top_numbers">
       <div class="number_card">
-        <p>平均年齢</p>
-        <h2>30.0 <span>歳</span></h2>
+          <p>平均年齢</p>
+          <h2>30.0 <span>歳</span></h2>
+          <img src="./assets/images/three_person.svg" alt="">
       </div>
-      <div class="number_card">
-        <p>育児休業取得率</p>
-        <div class="men_number">
-          <p>男性</p>
-          <h3>98<span>%</span></h3>
-        </div>
-        <div class="women_number">
-          <p>女性</p>
-          <h3>100<span>%</span></h3>
-        </div>
-      </div>
-      <div class="number_card">
-        <p>有給取得日数</p>
-        <h2>12.2 <span>日</span></h2>
-      </div>
-    </div>
+  </div>
     <!-- Top  numbers ends here -->
 
     <!-- Top member starts here -->
-    <div class="top_member">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
-        viewBox="0 0 40 40"
-        fill="none"
-      >
-        <rect width="40" height="40" fill="#CF0505" />
-        <path d="M19 25L14 20L19 15" stroke="white" stroke-width="1.5" />
-        <path
-          d="M25.1367 19.9783L14.2276 19.9783"
-          stroke="white"
-          stroke-width="1.5"
-        />
-      </svg>
-      <div class="members">
-        <div class="member_card">
+    <div class="top_member swiper mySwiper">
+      <img class="left_btn swiper-button-prev" src="./assets/images/left_icon.svg" alt="">
+      <div class="members swiper-wrapper">
+        <div class="member_card swiper-slide">
           <img src="./assets/images/member.png" alt="member" />
           <h4>山田太朗</h4>
           <p>エグゼクティブマネージャー</p>
         </div>
-        <div class="member_card">
+        <div class="member_card swiper-slide">
           <img src="./assets/images/member.png" alt="member" />
           <h4>山田太朗</h4>
           <p>エグゼクティブマネージャー</p>
         </div>
-        <div class="member_card">
+        <div class="member_card swiper-slide">
+          <img src="./assets/images/member.png" alt="member" />
+          <h4>山田太朗</h4>
+          <p>エグゼクティブマネージャー</p>
+        </div>
+        <div class="member_card swiper-slide">
           <img src="./assets/images/member.png" alt="member" />
           <h4>山田太朗</h4>
           <p>エグゼクティブマネージャー</p>
         </div>
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
-        viewBox="0 0 40 40"
-        fill="none"
-      >
-        <rect
-          x="40"
-          y="40"
-          width="40"
-          height="40"
-          transform="rotate(180 40 40)"
-          fill="#CF0505"
-        />
-        <path d="M21 15L26 20L21 25" stroke="white" stroke-width="1.5" />
-        <path
-          d="M14.8633 20.0217L25.7724 20.0217"
-          stroke="white"
-          stroke-width="1.5"
-        />
-      </svg>
+      <img class="right_btn swiper-button-next" src="./assets/images/right_icon.svg" alt="">
     </div>
     <!-- Top member end here -->
 
@@ -337,7 +296,7 @@
           <img src="./assets/images/arrow.svg" alt="" />
         </button>
       </div>
-      <div class="career_card">
+      <!-- <div class="career_card">
         <div class="top_headline">
           <div class="headline_left">
             <p>
@@ -367,7 +326,7 @@
           View more
           <img src="./assets/images/arrow.svg" alt="" />
         </button>
-      </div>
+      </div> -->
     </div>
     <!-- Career end here -->
 
@@ -861,5 +820,26 @@
       <!-- ------------------- -->
     </div>
     <!-- Under application detail ends here -->
+
+
+    <!-- <script src=""></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+        spaceBetween: 30,
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
   </body>
 </html>

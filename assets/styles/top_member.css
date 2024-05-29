@@ -8,9 +8,12 @@
     gap: 88px;
 }
 .top_member .members{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 88px;
+}
+.top_member .members .member_card{
+    width: 30%;
 }
 .top_member .members .member_card img{
     width: 100%;
