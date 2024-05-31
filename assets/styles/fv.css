@@ -19,7 +19,8 @@
   line-height: normal;
   letter-spacing: 9.6px;
   margin-bottom: 18px;
-  /* margin-left: 84px; */
+  position: relative;
+  z-index: 21;
   width: 90%;
   margin: 0 auto;
 }
