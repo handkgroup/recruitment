@@ -1,0 +1,13 @@
+.pdf{
+    width: 100%;
+    padding: 50px 0;
+}
+.pdf_container{
+    width: 60%;
+    background-color: gray;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
